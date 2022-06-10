@@ -1,13 +1,13 @@
-g_id = "айди группы"
+g_id = "group id"
 
-token = "токен группы"
+token = "group tocken"
 import requests
 import vk_api
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 import random
 
 def main():
-    privar = [ "Ghbdtn", "Здарова", "хай","привет", "дарова", "привет", ]
+    privar = [ "Ghbdtn", "hi", "hello","helluva", "h", "oh hi", ]
     bot_session = vk_api.VkApi(token=token)
     bot_api = bot_session.get_api()
     while True:
